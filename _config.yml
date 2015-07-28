@@ -1,0 +1,8 @@
+title: "todo: create site"
+
+todo:
+  name: true
+  logo: true
+  site: false
+
+markdown: kramdown

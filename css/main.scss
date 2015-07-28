@@ -1,0 +1,41 @@
+---
+---
+
+@import url("http://fonts.googleapis.com/css?family=Fira+Mono");
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+body {
+    font-family: "Fira Mono", monospace;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    color: darken(#fff, 70%);
+
+    h1, ul {
+        margin: 0;
+        padding: .5rem 0;
+    }
+
+    h1 {
+        border-bottom: .2em solid darken(#fff, 15%);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: .2em 0;
+    }
+}

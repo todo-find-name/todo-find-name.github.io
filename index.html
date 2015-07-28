@@ -1,0 +1,26 @@
+---
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>todo:</h1>
+            <ul>
+                {% for item in site.todo %}
+                <li>
+                    <input type="checkbox"{% if item[1] %} checked{% endif %}>
+                    <span class="item">{{ item[0] }}</span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </body>
+</html>
